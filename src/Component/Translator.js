@@ -90,7 +90,7 @@ const Translator = () => {
 
         {/* dropdown menu for source language*/}
         <Dropdown
-          label="Source Language"
+          label="Source Language : "
           onChangeLang={setDataForSource}
         ></Dropdown>
         <br />
@@ -98,7 +98,7 @@ const Translator = () => {
 
         {/* dropdown menu for target language */}
         <Dropdown
-          label="Target Language"
+          label="Target Language : "
           onChangeLang={setDataForTarget}
         ></Dropdown>
         <br />
